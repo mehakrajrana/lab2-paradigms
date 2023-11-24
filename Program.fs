@@ -1,2 +1,16 @@
 ﻿// For more information see https://aka.ms/fsharp-console-apps
-printfn "Hello from F#"
+  type coach ={
+    Name: string
+    FormerPlayer : bool
+}
+
+type stats={
+    Wins:int
+    Losses:int
+}
+
+type team={
+    Name:string
+    Coach:coach
+    Stats: stats
+}
